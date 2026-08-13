@@ -5,9 +5,9 @@
 // ---------------------------------------------------------
 
 export const profile = {
-  name: "Jomari Z. Salting",
+  name: "Jomari Z Salting",
   shortName: "J. SALTING",
-  role: "Application System Engineer, building and supporting production web systems.",
+  role: "Application System Engineer.",
   pitch:
     "Detail-oriented engineer with hands-on experience across front-end development, back-end support, system testing, and UI documentation — with a focus on healthcare and POS platforms.",
   email: "jomsalting@gmail.com",

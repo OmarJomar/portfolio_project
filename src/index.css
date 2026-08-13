@@ -183,8 +183,36 @@ button {
   padding: 80px 24px 96px;
 }
 
+.hero-banner {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 15, 28, 0.75) 0%,
+    rgba(10, 15, 28, 0.55) 40%,
+    rgba(10, 15, 28, 0.9) 100%
+  );
+  z-index: 0;
+}
+
+.hero-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
 .eyebrow {
-  font-size: 12px;
+  font-size: 40px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--accent);
@@ -247,6 +275,9 @@ button {
 .section {
   padding: 64px 0;
   scroll-margin-top: 96px;
+  background-color: #0A0F1C;
+  position: relative;
+  z-index: 1;
 }
 
 .section-label {
