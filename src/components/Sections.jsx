@@ -24,20 +24,24 @@ export function Skills() {
   return (
     <section id="skills" className="section">
       <SectionLabel num="02" label="Skills" />
-      <div className="skills-grid">
-        {skillGroups.map((g) => (
-          <div key={g.title}>
-            <h3 className="mono skills-group-title">{g.title}</h3>
-            <div className="tag-row">
-              {g.items.map((it) => (
-                <span key={it} className="mono tag">
-                  {it}
-                </span>
-              ))}
+        <div className="skills-grid">
+          {skillGroups.map((g) => (
+            <div key={g.title}>
+              <h3 className="mono skills-group-title">{g.title}</h3>
+              <div className="skill-list">
+                {g.items.map((item) => (
+                  <div key={item.name} className="skill-row">
+                    <span className="skill-name">{item.name}</span>
+                    <span className="skill-dots">
+                      {"●".repeat(item.level)}
+                      {"○".repeat(5 - item.level)}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
     </section>
   );
 }

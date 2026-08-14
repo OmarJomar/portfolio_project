@@ -32,12 +32,50 @@ export const summary =
   "Detail-oriented Application System Engineer with experience in front-end development, back-end support, system testing, UI documentation, and web application enhancement. Experienced in supporting POS and healthcare-related systems, reviewing test scenarios, assisting in application development, and troubleshooting software and hardware issues. Strong in problem-solving, documentation, teamwork, and adapting to new technologies.";
 
 export const skillGroups = [
-  { title: "Front-End", items: ["React", "JavaScript", "HTML", "CSS", "TypeScript (basic)"] },
-  { title: "Back-End", items: ["C#.NET", "SQL", "MS SQL Server"] },
-  { title: "Tools", items: ["Visual Studio", "VS Code", "GitHub", "SVN Tortoise", "IIS"] },
+  {
+    title: "Front-End",
+    items: [
+      { name: "React", level: 3 },
+      { name: "JavaScript", level: 3 },
+      { name: "HTML", level: 4 },
+      { name: "CSS", level: 4 },
+      { name: "TypeScript (basic)", level: 2 },
+    ],
+  },
+  {
+    title: "Back-End",
+    items: [
+      { name: "C#", level: 3 },
+      { name: "ASP.NET", level: 3 },
+      { name: "MS SQL", level: 3 },
+      { name: "Java", level: 2 },
+    ],
+  },
+  {
+    title: "Tools",
+    items: [
+      { name: "Visual Studio", level: 4 },
+      { name: "VS Code", level: 5 },
+      { name: "Git", level: 3 },
+      { name: "GitHub", level: 4 },
+      { name: "SVN Tortoise", level: 3 },
+      { name: "IIS", level: 3 },
+      { name: "VBA", level: 3 },
+      { name: "Microsoft Word", level: 4 },
+      { name: "Excel", level: 4 },
+      { name: "PowerPoint", level: 4 },
+    ],
+  },
   {
     title: "Testing & Docs",
-    items: ["Test scenario review", "Use case analysis", "UI documentation", "System documentation"],
+    items: [
+      { name: "Test scenario review", level: 4 },
+      { name: "Use case analysis", level: 4 },
+      { name: "UI documentation", level: 4 },
+      { name: "System documentation", level: 5 },
+      { name: "Computer Troubleshooting", level: 4 },
+      { name: "Hardware Troubleshooting", level: 4 },
+    ],
   },
 ];
 

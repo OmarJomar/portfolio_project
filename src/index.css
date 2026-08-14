@@ -375,6 +375,32 @@ button {
   margin: 0 0 12px;
 }
 
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px dashed var(--rule);
+  padding-bottom: 8px;
+}
+
+.skill-name {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.skill-dots {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;
