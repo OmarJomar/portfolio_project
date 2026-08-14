@@ -6,7 +6,7 @@
 portfolio-project/
 ├── index.html              ← page shell, title, meta description
 ├── package.json            ← dependencies
-├── vite.config.js
+├── vite.config.js          ← Vite build/dev server config
 ├── public/
 │   └── resume.pdf          ← resume PDF here
 └── src/
@@ -15,11 +15,11 @@ portfolio-project/
     ├── data.js             ← ALL your content (edit this to update text)
     ├── index.css           ← ALL styling (dark navy theme, edit variables at top)
     └── components/
-        ├── Nav.jsx
-        ├── Hero.jsx
-        ├── SectionLabel.jsx
-        ├── Sections.jsx       ← Summary, Skills, Experience, Projects, Education, Contact
-        └── Footer.jsx
+        ├── Nav.jsx           ← sticky top nav + status bar, scrollspy active-link highlight
+        ├── Hero.jsx          ← intro block: name, headline, pitch, CTA buttons
+        ├── SectionLabel.jsx  ← reusable numbered heading (e.g. "01 — Summary")
+        ├── Sections.jsx      ← Summary, Skills, Experience, Projects, Education, Contact
+        └── Footer.jsx        ← copyright line + location
 ```
 
 To change your text (name, skills, jobs, projects) → edit `src/data.js`.
