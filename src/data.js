@@ -7,16 +7,16 @@
 export const profile = {
   name: "Jomari Z Salting",
   shortName: "J. SALTING",
-  role: "Application System Engineer.",
+  role: "Application System Engineer | Web Developer",
   pitch:
-    "Detail-oriented engineer with hands-on experience across front-end development, back-end support, system testing, and UI documentation — with a focus on healthcare and POS platforms.",
+    "Detail-oriented engineer with hands-on experience across front-end development, back-end support, system testing, and UI documentation.",
   email: "jomsalting@gmail.com",
   phone: "0976 016 5869",
   phoneHref: "+639760165869",
   location: "Malabanban Sur, Candelaria, Quezon",
-  github: "github.com/your-username", // TODO: add your real GitHub link
-  linkedin: "linkedin.com/in/your-profile", // TODO: add your real LinkedIn link
-  resumeFile: "/resume.pdf", // put your resume PDF in the /public folder with this name
+  github: "https://github.com/OmarJomar", // TODO: add your real GitHub link
+  linkedin: "https://www.linkedin.com/in/jomari-salting-b1ba14273", // TODO: add your real LinkedIn link
+  resumeFile: "resume.pdf", 
 };
 
 export const sections = [
