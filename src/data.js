@@ -48,7 +48,8 @@ export const skillGroups = [
       { name: "C#", level: 3 },
       { name: "ASP.NET", level: 3 },
       { name: "MS SQL", level: 3 },
-      { name: "Java", level: 2 },
+      { name: "My SQL", level: 2 },
+      { name: "Java EE", level: 2 },
     ],
   },
   {
@@ -67,10 +68,12 @@ export const skillGroups = [
     ],
   },
   {
-    title: "Testing & Docs",
+    title: "Testing & Other Skills",
     items: [
       { name: "Test scenario review", level: 4 },
       { name: "Use case analysis", level: 4 },
+      { name: "Software Testing", level: 4 },
+      { name: "Manual Testing", level: 4 },
       { name: "UI documentation", level: 4 },
       { name: "System documentation", level: 5 },
       { name: "Computer Troubleshooting", level: 4 },
@@ -104,23 +107,30 @@ export const internships = [
 // single highest-impact edit you can make to this site.
 export const projects = [
   {
-    title: "Add your first project here",
-    desc: "Replace this card with a real build — even a small React dashboard or CRUD app. It's the single highest-impact addition you can make to this page.",
-    tags: ["React", "Placeholder"],
+    title: "Odds-Park",
+    desc: "Prepared and maintained UI-related documentation to support system design, development, and implementation activities.",
+    tags: ["UI Design", "Documentation"],
     url: "",
   },
   {
-    title: "Add a second project",
-    desc: "A C#.NET + SQL mini-project, or a sanitized case study of a UI you built at Fujitsu/Weserv, works well here.",
-    tags: ["C#.NET", "SQL", "Placeholder"],
+    title: "TeamStore - Welcia",
+    desc: "Reviewed and analyzed POS test scenarios and documentation to identify use cases, improve test coverage, and support quality assurance.",
+    tags: ["POS", "Test scenario review", "Documentation", "Use case analysis", "Quality Assurance"],
     url: "",
   },
   {
-    title: "Add a third project",
-    desc: "Something that shows range — a testing/documentation artifact, a tool, or a POS-style mockup.",
-    tags: ["Placeholder"],
+    title: "NHK - miniEGGS",
+    desc: "Assisted in front-end development using React, JavaScript, HTML, and CSS, including sample UI designs for client review",
+    tags: ["Front-end", "UI Design", "React", "JavaScript", "HTML", "CSS", "Postman"],
     url: "",
   },
+
+  {
+    title: "Healthcare Migration Center",
+    desc: "Supported the development, testing, and enhancement of healthcare web applications using C#.NET, MS SQL, GitHub, IIS, and SVN Tortoise.",
+    tags: ["Back-end", "C#", "ASP.NET", "MS SQL", "Git", "IIS", "SVN Tortoise", "Software Testing", "Manual Testing"],
+    url: "",
+  }
 ];
 
 export const education = [
