@@ -278,8 +278,8 @@ button {
 }
 
 .btn-secondary {
-  border: 1px solid var(--rule);
-  color: var(--text);
+  border: 1px solid #6FA1E0;
+  color: #6FA1E0;
 }
 
 @media (min-width: 1200px) {
