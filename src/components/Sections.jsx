@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, Github, Linkedin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, Github, Linkedin, Facebook, Instagram, ArrowUpRight } from "lucide-react";
 import SectionLabel from "./SectionLabel.jsx";
 import {
   profile,
@@ -68,7 +68,7 @@ export function Experience() {
             </div>
           </div>
         ))}
-        
+
         <div className="intern-block">
           <p className="mono muted small">Internships</p>
           <div className="intern-list">
@@ -139,26 +139,34 @@ export function Education() {
 
 export function Contact() {
   return (
-    <section id="contact" className="section">
-      <SectionLabel num="06" label="Contact" />
-      <div className="contact-list">
-        <a href={`mailto:${profile.email}`} className="contact-row">
-          <Mail size={16} className="accent" />
-          {profile.email}
-        </a>
-        <a href={`tel:${profile.phoneHref}`} className="contact-row">
-          <Phone size={16} className="accent" />
-          {profile.phone}
-        </a>
-        <div className="contact-row muted">
-          <Github size={16} className="accent" />
-          {profile.github}
-        </div>
-        <div className="contact-row muted">
-          <Linkedin size={16} className="accent" />
-          {profile.linkedin}
-        </div>
-      </div>
-    </section>
+  <section id="contact" className="section">
+    <SectionLabel num="06" label="Contact" />
+    <div className="contact-list">
+      <a href={`mailto:${profile.email}`} className="contact-row">
+        <Mail size={16} className="accent" />
+        {profile.email}
+      </a>
+      <a href={`tel:${profile.phoneHref}`} className="contact-row">
+        <Phone size={16} className="accent" />
+        {profile.phone}
+      </a>
+      <a href={profile.github} target="_blank" rel="noopener noreferrer" className="contact-row">
+        <Github size={16} className="accent" />
+        {profile.github}
+      </a>
+      <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="contact-row">
+        <Linkedin size={16} className="accent" />
+        {profile.linkedin}
+      </a>
+      <a href={profile.facebook} target="_blank" rel="noopener noreferrer" className="contact-row">
+        <Facebook size={16} className="accent" />
+        {profile.facebook}
+      </a>
+      <a href={profile.instagram} target="_blank" rel="noopener noreferrer" className="contact-row">
+        <Instagram size={16} className="accent" />
+        {profile.instagram}
+      </a>
+    </div>
+  </section>
   );
 }

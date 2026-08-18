@@ -354,7 +354,7 @@ button {
 .summary-text {
   font-size: 20px;
   line-height: 1.6;
-  max-width: 640px;
+  max-width: min(90%, 1000px);
   color: #d3d9e4;
 }
 
@@ -606,6 +606,10 @@ button {
   align-items: center;
   gap: 12px;
   font-size: 14px;
+}
+
+.contact-row:hover {
+  color: var(--accent);
 }
 
 /* ---------------------------------------------------------

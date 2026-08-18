@@ -9,13 +9,15 @@ export const profile = {
   shortName: "J. SALTING",
   role: "Application System Engineer | Web Developer",
   pitch:
-    "Detail-oriented engineer with hands-on experience across front-end development, back-end support, system testing, and UI documentation.",
+    "Detail-oriented engineer with hands-on experience across front-end development, back-end development, software enhancement, software testing, and UI documentation.",
   email: "jomsalting@gmail.com",
   phone: "0976 016 5869",
   phoneHref: "+639760165869",
   location: "Malabanban Sur, Candelaria, Quezon",
-  github: "https://github.com/OmarJomar", // TODO: add your real GitHub link
-  linkedin: "https://www.linkedin.com/in/jomari-salting-b1ba14273", // TODO: add your real LinkedIn link
+  github: "https://github.com/OmarJomar", 
+  linkedin: "https://www.linkedin.com/in/jomari-salting-b1ba14273",
+  facebook: "https://www.facebook.com/O.Salting/",
+  instagram: "https://www.instagram.com/jomari.omar/",
   resumeFile: "resume.pdf", 
 };
 
