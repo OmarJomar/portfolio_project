@@ -41,7 +41,7 @@ export const skillGroups = [
       { name: "JavaScript", level: 3 },
       { name: "HTML", level: 4 },
       { name: "CSS", level: 4 },
-      { name: "TypeScript (basic)", level: 2 },
+      { name: "TypeScript", level: 2 },
     ],
   },
   {
