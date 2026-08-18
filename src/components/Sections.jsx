@@ -68,16 +68,19 @@ export function Experience() {
             </div>
           </div>
         ))}
-
+        
         <div className="intern-block">
           <p className="mono muted small">Internships</p>
           <div className="intern-list">
             {internships.map((it) => (
               <div key={it.org} className="intern-row">
-                <span>
-                  {it.role} — <span className="muted">{it.org}</span>
-                </span>
-                <span className="mono muted small">{it.time}</span>
+                <div className="intern-row-header">
+                  <span>
+                    {it.role} — <span className="muted">{it.org}</span>
+                  </span>
+                  <span className="mono muted small">{it.time}</span>
+                </div>
+                <p className="intern-description">{it.description}</p>
               </div>
             ))}
           </div>

@@ -78,6 +78,7 @@ export const skillGroups = [
       { name: "System documentation", level: 5 },
       { name: "Computer Troubleshooting", level: 4 },
       { name: "Hardware Troubleshooting", level: 4 },
+      { name: "Electrical wiring", level: 3 },
     ],
   },
 ];
@@ -88,19 +89,30 @@ export const experience = [
     org: "Fujitsu / Weserv",
     time: "Dec 2021 — Jan 2026",
     points: [
-      "Supported development, testing, and enhancement of healthcare web applications using C#.NET, MS SQL, GitHub, IIS, and SVN Tortoise.",
-      "Built front-end features and sample UI designs using React, JavaScript, HTML, and CSS for client review.",
-      "Reviewed and analyzed POS test scenarios to improve test coverage and support QA.",
-      "Prepared and maintained UI-related documentation across the system design and implementation lifecycle.",
-      "Coordinated with team members to resolve system concerns and deliver assigned work on schedule.",
+      "Application System Engineer with experience in software development, software testing, manual testing, application development support, UI documentation, and system enhancement. Experienced in supporting healthcare and POS systems, with knowledge of both front-end and back-end development"
     ],
   },
 ];
 
 export const internships = [
-  { role: "Technical Assistant Intern", org: "Pixografx", time: "Apr 2016 — Jun 2016" },
-  { role: "Technical Assistant Intern", org: "Harte Hanks", time: "May 2017 — Jul 2017" },
-  { role: "Production Coordinator Assistant Intern", org: "Happy Print", time: "Jan 2018 — May 2018" },
+  {
+    role: "Technical Assistant Intern",
+    org: "Pixografx",
+    time: "Apr 2016 — Jun 2016",
+    description: "Provided technical support for daily office operations, including printer repair, hardware troubleshooting, and general IT assistance, while gaining hands-on experience with workplace systems and technical support procedures.",
+  },
+  {
+    role: "Technical Assistant Intern",
+    org: "Harte Hanks",
+    time: "May 2017 — Jul 2017",
+    description: "Provided technical support for daily operations, including computer reformatting, operating system installation, remote desktop support, computer deployment, hardware and software troubleshooting, and technical documentation in a BPO environment.",
+  },
+  {
+    role: "Production Coordinator Assistant Intern",
+    org: "Happy Print",
+    time: "Jan 2018 — May 2018",
+    description: "Supported production coordination tasks by tracking workflows, maintaining office computers, and helping ensure the timely completion of print jobs.",
+  },
 ];
 
 // TODO: Replace these with your real projects — this is the
@@ -141,12 +153,27 @@ export const education = [
   },
   {
     school: "Polytechnic University of the Philippines",
-    degree: "B.S. Computer Engineering",
+    degree: "Bachelor of Science in Computer Engineering",
     time: "2018 — 2021",
   },
   {
     school: "Polytechnic University of the Philippines",
-    degree: "Diploma, Computer Engineering Technology",
+    degree: "Diploma in Computer Engineering Technology",
     time: "2015 — 2018",
   },
+  {
+    school: "E. Rodriguez Vocational High School",
+    degree: "High School Diploma in Electrical Technology",
+    time: "2011 — 2015",
+  },
+  {
+    school: "Trinidad Elementary School",
+    degree: "Elementary School",
+    time: "2009 — 2011",
+  },
+  {
+    school: "Malabanban Sur Elementary School",
+    degree: "Elementary School",
+    time: "2006 — 2009",
+  }
 ];
