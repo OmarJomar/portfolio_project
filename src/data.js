@@ -9,7 +9,7 @@ export const profile = {
   shortName: "J. SALTING",
   role: "Application System Engineer | Web Developer",
   pitch:
-    "Detail-oriented engineer with hands-on experience across front-end development, back-end development, software enhancement, software testing, and UI documentation.",
+    "Detail-oriented engineer with hands-on experience across front-end development, back-end development, application enhancement, application testing, and UI documentation.",
   email: "jomsalting@gmail.com",
   phone: "0976 016 5869",
   phoneHref: "+639760165869",
