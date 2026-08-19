@@ -75,6 +75,25 @@ button {
   min-height: 100vh;
 }
 
+.reveal {
+  opacity: 0;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.from-bottom {
+  transform: translateY(30px);
+}
+
+.reveal.from-top {
+  transform: translateY(-30px);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 /* ---------------------------------------------------------
    STATUS BAR
 --------------------------------------------------------- */
@@ -310,6 +329,41 @@ button {
     font-size: 17px;
   }
 }
+
+.hero.reveal .hero-profile-image,
+.hero.reveal .hero-greeting,
+.hero.reveal .eyebrow,
+.hero.reveal .hero-title,
+.hero.reveal .hero-pitch,
+.hero.reveal .hero-actions {
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.hero.reveal.from-bottom .hero-profile-image,
+.hero.reveal.from-bottom .hero-greeting,
+.hero.reveal.from-bottom .eyebrow,
+.hero.reveal.from-bottom .hero-title,
+.hero.reveal.from-bottom .hero-pitch,
+.hero.reveal.from-bottom .hero-actions {
+  transform: translateY(20px);
+}
+
+.hero.reveal.from-top .hero-profile-image,
+.hero.reveal.from-top .hero-greeting,
+.hero.reveal.from-top .eyebrow,
+.hero.reveal.from-top .hero-title,
+.hero.reveal.from-top .hero-pitch,
+.hero.reveal.from-top .hero-actions {
+  transform: translateY(-20px);
+}
+
+.hero.reveal.is-visible .hero-profile-image { opacity: 1; transform: translateY(0); transition-delay: 0.1s; }
+.hero.reveal.is-visible .hero-greeting { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
+.hero.reveal.is-visible .eyebrow { opacity: 1; transform: translateY(0); transition-delay: 0.4s; }
+.hero.reveal.is-visible .hero-title { opacity: 1; transform: translateY(0); transition-delay: 0.55s; }
+.hero.reveal.is-visible .hero-pitch { opacity: 1; transform: translateY(0); transition-delay: 0.7s; }
+.hero.reveal.is-visible .hero-actions { opacity: 1; transform: translateY(0); transition-delay: 0.85s; }
 
 /* ---------------------------------------------------------
    SECTIONS (shared)

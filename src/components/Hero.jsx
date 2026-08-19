@@ -3,11 +3,13 @@ import { Mail, Download } from "lucide-react";
 import { profile } from "../data.js";
 import heroBg from '../assets/hero-bg.jpg';
 import heroProfilePic from '../assets/hero-profile.jpg';
+import { useScrollReveal } from "../hooks/useScrollReveal.js"; {/* ADDED: import the scroll reveal hook */}
 
 export default function Hero() {
+  useScrollReveal(); {}
   return (
     <header className="hero-banner" style={{ backgroundImage: `url(${heroBg})` }}>
-      <div className="container hero">
+      <div className="container hero reveal"> {/* CHANGED: added "reveal" class */}
         <img src={heroProfilePic} alt={profile.name} className="hero-profile-image" />
         <p className="hero-greeting">Hello, I am</p>
         <h2 className="mono eyebrow">{profile.name}</h2>

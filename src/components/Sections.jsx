@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, Phone, Github, Linkedin, Facebook, Instagram, ArrowUpRight } from "lucide-react";
 import SectionLabel from "./SectionLabel.jsx";
+import { useScrollReveal } from "../hooks/useScrollReveal.js";
 import {
   profile,
   summary,
@@ -12,8 +13,9 @@ import {
 } from "../data.js";
 
 export function Summary() {
+  useScrollReveal();
   return (
-    <section id="summary" className="section">
+    <section id="summary" className="section reveal"> {/* ADDED: reveal class was missing */}
       <SectionLabel num="01" label="Summary" />
       <p className="summary-text">{summary}</p>
     </section>
@@ -21,8 +23,9 @@ export function Summary() {
 }
 
 export function Skills() {
+  useScrollReveal();
   return (
-    <section id="skills" className="section">
+    <section id="skills" className="section reveal"> {/* ADDED: reveal class was missing */}
       <SectionLabel num="02" label="Skills" />
         <div className="skills-grid">
           {skillGroups.map((g) => (
@@ -47,8 +50,9 @@ export function Skills() {
 }
 
 export function Experience() {
+  useScrollReveal();
   return (
-    <section id="experience" className="section">
+    <section id="experience" className="section reveal"> {/* ADDED: reveal class was missing */}
       <SectionLabel num="03" label="Experience" />
       <div className="exp-list">
         {experience.map((e) => (
@@ -90,8 +94,9 @@ export function Experience() {
 }
 
 export function Projects() {
+  useScrollReveal();
   return (
-  <section id="projects" className="section">
+  <section id="projects" className="section reveal"> {/* ADDED: reveal class was missing */}
     <SectionLabel num="04" label="Projects" />
     <div className="projects-grid">
       {projects.map((p) => (
@@ -121,8 +126,9 @@ export function Projects() {
 }
 
 export function Education() {
+  useScrollReveal();
   return (
-    <section id="education" className="section">
+    <section id="education" className="section reveal"> {/* ADDED: reveal class was missing */}
       <SectionLabel num="05" label="Education" />
       <div className="edu-list">
         {education.map((ed) => (
@@ -140,8 +146,9 @@ export function Education() {
 }
 
 export function Contact() {
+  useScrollReveal();
   return (
-  <section id="contact" className="section">
+  <section id="contact" className="section reveal"> {/* ADDED: reveal class was missing */}
     <SectionLabel num="06" label="Contact" />
     <div className="contact-list">
       <a href={`mailto:${profile.email}`} className="contact-row">
