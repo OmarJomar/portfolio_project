@@ -69,7 +69,7 @@ export function Experience() {
         ))}
 
         <div className="intern-block">
-          <p className="mono muted small">Internships</p>
+          <p className="mono muted small intern-label">Internships</p>
           <div className="intern-list">
             {internships.map((it) => (
               <div key={it.org} className="exp-row">

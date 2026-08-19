@@ -89,7 +89,7 @@ export const experience = [
   {
     role: "Application System Engineer",
     org: "Fujitsu / Weserv",
-    time: "Dec 2021 — Jan 2026",
+    time: "Dec 2021 — Feb 2026",
     points: [
       "Application System Engineer with experience in software development, software testing, manual testing, application development support, UI documentation, and system enhancement. Experienced in supporting healthcare and POS systems, with knowledge of both front-end and back-end development"
     ],

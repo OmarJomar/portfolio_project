@@ -475,6 +475,10 @@ button {
   color: var(--rule);
 }
 
+.intern-label {
+  font-size: 20px;
+}
+
 .intern-block {
   border-top: 1px solid var(--rule);
   padding-top: 32px;
@@ -488,18 +492,18 @@ button {
   gap: 40px;
 }
 
+.exp-org-inline {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .intern-description {
   font-size: 13px;
   color: var(--muted);
   margin: 6px 0 0;
   max-width: 600px;
 }
-
-.exp-org-inline {
-  color: var(--accent);
-  font-weight: 400;
-}
-
 
 @media (min-width: 768px) {
   .exp-row {
