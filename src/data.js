@@ -122,27 +122,34 @@ export const internships = [
 export const projects = [
   {
     title: "Odds-Park",
+    org: "Fujitsu",
+    time: "Jan 2022 — Mar 2022",
     desc: "Prepared and maintained UI-related documentation to support system design, development, and implementation activities.",
     tags: ["UI Design", "Documentation"],
     url: "",
   },
   {
     title: "TeamStore - Welcia",
+    org: "Fujitsu",
+    time: "Jun 2022 — Feb 2023",
     desc: "Reviewed and analyzed POS test scenarios and documentation to identify use cases, improve test coverage, and support quality assurance.",
     tags: ["POS", "Test scenario review", "Documentation", "Use case analysis", "Quality Assurance"],
     url: "",
   },
   {
     title: "NHK - miniEGGS",
+    org: "Fujitsu",
+    time: "Feb 2023 — May 2023",
     desc: "Assisted in front-end development using React, JavaScript, HTML, and CSS, including sample UI designs for client review",
     tags: ["Front-end", "UI Design", "React", "JavaScript", "HTML", "CSS", "Postman"],
     url: "",
   },
-
   {
     title: "Healthcare Migration Center",
+    org: "Fujitsu",
+    time: "June 2023 — Jan 2026",
     desc: "Supported the development, testing, and enhancement of healthcare web applications using C#.NET, MS SQL, GitHub, IIS, and SVN Tortoise.",
-    tags: ["Back-end", "C#", "ASP.NET", "MS SQL", "Git", "IIS", "SVN Tortoise", "Software Testing", "Manual Testing"],
+    tags: ["Back-end", "C#", "ASP.NET", "MS SQL", "Git", "IIS", "SVN Tortoise", "Application Testing", "Application Enhancement", "Manual Testing"],
     url: "",
   }
 ];

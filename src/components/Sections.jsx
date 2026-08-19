@@ -91,29 +91,32 @@ export function Experience() {
 
 export function Projects() {
   return (
-    <section id="projects" className="section">
-      <SectionLabel num="04" label="Projects" />
-      <div className="projects-grid">
-        {projects.map((p) => (
-          <div key={p.title} className="project-card">
-            <div>
-              <div className="project-head">
-                <h3 className="project-title">{p.title}</h3>
-                <ArrowUpRight size={16} className="muted" />
-              </div>
-              <p className="project-desc">{p.desc}</p>
+  <section id="projects" className="section">
+    <SectionLabel num="04" label="Projects" />
+    <div className="projects-grid">
+      {projects.map((p) => (
+        <div key={p.title} className="project-card">
+          <div>
+            <div className="project-head">
+              <h3 className="project-title">{p.title}</h3>
+              <ArrowUpRight size={16} className="muted" />
             </div>
-            <div className="tag-row project-tags">
-              {p.tags.map((t) => (
-                <span key={t} className="mono tag tag-small">
-                  {t}
-                </span>
-              ))}
-            </div>
+            <p className="project-meta">
+              {p.org} <span className="project-meta-dot">·</span> {p.time}
+            </p>
+            <p className="project-desc">{p.desc}</p>
           </div>
-        ))}
-      </div>
-    </section>
+          <div className="tag-row project-tags">
+            {p.tags.map((t) => (
+              <span key={t} className="mono tag tag-small">
+                {t}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
   );
 }
 
