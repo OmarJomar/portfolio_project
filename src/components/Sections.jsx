@@ -60,7 +60,6 @@ export function Experience() {
               <ul className="exp-points">
                 {e.points.map((p, i) => (
                   <li key={i} className="exp-point">
-                    <span className="exp-dash">—</span>
                     <span>{p}</span>
                   </li>
                 ))}
@@ -73,14 +72,14 @@ export function Experience() {
           <p className="mono muted small">Internships</p>
           <div className="intern-list">
             {internships.map((it) => (
-              <div key={it.org} className="intern-row">
-                <div className="intern-row-header">
-                  <span>
-                    {it.role} — <span className="muted">{it.org}</span>
-                  </span>
-                  <span className="mono muted small">{it.time}</span>
+              <div key={it.org} className="exp-row">
+                <p className="mono muted small">{it.time}</p>
+                <div>
+                  <h3 className="exp-role">
+                    {it.role} — <span className="exp-org-inline">{it.org}</span>
+                  </h3>
+                  <p className="intern-description">{it.description}</p>
                 </div>
-                <p className="intern-description">{it.description}</p>
               </div>
             ))}
           </div>

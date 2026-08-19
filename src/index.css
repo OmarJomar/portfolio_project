@@ -438,7 +438,7 @@ button {
 .exp-row {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 12px;
+  gap: 5px;
 }
 
 .exp-role {
@@ -485,13 +485,7 @@ button {
 .intern-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-}
-
-.intern-row-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  gap: 40px;
 }
 
 .intern-description {
@@ -501,13 +495,16 @@ button {
   max-width: 600px;
 }
 
+.exp-org-inline {
+  color: var(--accent);
+  font-weight: 400;
+}
+
+
 @media (min-width: 768px) {
   .exp-row {
     grid-template-columns: 180px 1fr;
     gap: 32px;
-  }
-  .intern-block {
-    grid-template-columns: 180px 1fr;
   }
 }
 

@@ -31,7 +31,7 @@ export const sections = [
 ];
 
 export const summary =
-  "Detail-oriented Application System Engineer with over four years of hands-on experience supporting and enhancing production web applications in the healthcare and point-of-sale (POS) industries. Skilled in front-end development using React, JavaScript, HTML, and CSS, with experience in designing and documenting UI layouts to support implementation and align with client and stakeholder requirements. Also experienced in back-end development and support using C#.NET and SQL Server. Comfortable working throughout the full software development lifecycle, including software testing, manual testing, test scenario and use-case review, feature development, application support, and troubleshooting software and hardware issues in production environments. Experienced in preparing and maintaining UI and system documentation to ensure that technical processes, requirements, and decisions remain clear, organized, and well-documented. Able to work effectively in collaborative, cross-functional teams by coordinating with developers, QA teams, and stakeholders to resolve issues and deliver projects on schedule. Holds a Diploma and a Bachelor's Degree in Computer Engineering, as well as a Master's Degree in Engineering Management, combining technical expertise with strong analytical, organizational, communication, and process management skills. Adaptable to new technologies and committed to continuous learning, with a strong interest in developing efficient, maintainable, and user-focused solutions.";
+  "Detail-oriented Application System Engineer with over four years of experience in application development, application testing, application support, documentation, and system enhancement within healthcare and point-of-sale (POS) environments. Experienced in both front-end and back-end development using React, JavaScript, HTML, CSS, C#.NET, and MS SQL, with a strong understanding of the software development lifecycle, including manual testing, test scenario analysis, use-case review, troubleshooting, and production support. Skilled in preparing technical and UI documentation, collaborating with cross-functional teams, and delivering solutions that meet business and client requirements. Holds a Diploma and a Bachelor's Degree in Computer Engineering, as well as a Master's Degree in Engineering Management, combining technical expertise with strong analytical, organizational, communication, and problem-solving skills while maintaining a commitment to continuous learning, adaptability, and professional growth.";
 
 export const skillGroups = [
   {
@@ -74,7 +74,7 @@ export const skillGroups = [
     items: [
       { name: "Test scenario review", level: 4 },
       { name: "Use case analysis", level: 4 },
-      { name: "Software Testing", level: 4 },
+      { name: "Application Testing", level: 4 },
       { name: "Manual Testing", level: 4 },
       { name: "UI documentation", level: 4 },
       { name: "System documentation", level: 5 },
