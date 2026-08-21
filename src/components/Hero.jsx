@@ -2,16 +2,18 @@ import React from "react";
 import { Mail, Download } from "lucide-react";
 import { profile } from "../data.js";
 import heroBg from '../assets/hero-bg.jpg';
-import heroProfilePic from '../assets/hero-profile.jpg';
-import { useScrollReveal } from "../hooks/useScrollReveal.js"; {/* ADDED: import the scroll reveal hook */}
+import { useScrollReveal } from "../hooks/useScrollReveal.js";
+import { useTypewriter } from "../hooks/useTypewriter.js";
+{/* REMOVED: heroProfilePic import — no longer used since profile photo was removed */}
 
 export default function Hero() {
-  useScrollReveal(); {}
+  useScrollReveal();
+  const greetingText = useTypewriter("Hello, I am", 150);
+
   return (
     <header className="hero-banner" style={{ backgroundImage: `url(${heroBg})` }}>
-      <div className="container hero reveal"> {/* CHANGED: added "reveal" class */}
-        <img src={heroProfilePic} alt={profile.name} className="hero-profile-image" />
-        <p className="hero-greeting">Hello, I am</p>
+      <div className="container hero reveal">
+        <p className="hero-greeting">{greetingText}<span className="typewriter-cursor">|</span></p>
         <h2 className="mono eyebrow">{profile.name}</h2>
         <h1 className="hero-title">{profile.role}</h1>
         <p className="hero-pitch">{profile.pitch}</p>

@@ -2,6 +2,7 @@ import React from "react";
 import { Mail, Phone, Github, Linkedin, Facebook, Instagram, ArrowUpRight } from "lucide-react";
 import SectionLabel from "./SectionLabel.jsx";
 import { useScrollReveal } from "../hooks/useScrollReveal.js";
+import summaryPhoto from '../assets/hero-pic.jpg';
 import {
   profile,
   summary,
@@ -15,9 +16,12 @@ import {
 export function Summary() {
   useScrollReveal();
   return (
-    <section id="summary" className="section reveal"> {/* ADDED: reveal class was missing */}
+    <section id="summary" className="section reveal">
       <SectionLabel num="01" label="Summary" />
-      <p className="summary-text">{summary}</p>
+      <div className="summary-layout">
+        <img src={summaryPhoto} alt={profile.name} className="summary-photo" />
+        <p className="summary-text">{summary}</p>
+      </div>
     </section>
   );
 }
