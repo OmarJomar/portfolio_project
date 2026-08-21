@@ -4,7 +4,6 @@ import { profile } from "../data.js";
 import heroBg from '../assets/hero-bg.jpg';
 import { useScrollReveal } from "../hooks/useScrollReveal.js";
 import { useTypewriter } from "../hooks/useTypewriter.js";
-{/* REMOVED: heroProfilePic import — no longer used since profile photo was removed */}
 
 export default function Hero() {
   useScrollReveal();

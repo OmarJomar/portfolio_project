@@ -230,8 +230,6 @@ button {
   z-index: 1;
 }
 
-/* REMOVED: .hero-profile-image block (profile photo removed from Hero) */
-
 .hero-greeting {
   font-size: 48px;
   font-weight: 400;
@@ -304,7 +302,6 @@ button {
 }
 
 @media (min-width: 1200px) {
-  /* REMOVED: .hero-profile-image size override (no longer used) */
 
   .hero-greeting {
     font-size: 96px;

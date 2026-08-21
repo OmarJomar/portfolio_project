@@ -29,7 +29,7 @@ export function Summary() {
 export function Skills() {
   useScrollReveal();
   return (
-    <section id="skills" className="section reveal"> {/* ADDED: reveal class was missing */}
+    <section id="skills" className="section reveal">
       <SectionLabel num="02" label="Skills" />
         <div className="skills-grid">
           {skillGroups.map((g) => (
