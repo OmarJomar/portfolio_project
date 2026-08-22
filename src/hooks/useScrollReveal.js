@@ -26,7 +26,7 @@ export function useScrollReveal() {
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.3, rootMargin: "-10% 0px -10% 0px" }
     );
 
     elements.forEach((el) => observer.observe(el));
